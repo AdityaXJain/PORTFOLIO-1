@@ -167,6 +167,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  border-radius: 100px;
 }
 
 .section__pic-container {
@@ -314,6 +315,12 @@ section {
   margin: auto 0;
 }
 
+.section__pic-container img{
+  border-radius: 250px;
+  /* width: 100%; */
+  
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -357,6 +364,7 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-top: 290px;
 }
 
 .color-container {
